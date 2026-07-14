@@ -1,14 +1,11 @@
 <table>
 <tr>
 <td width="380" valign="top">
-
 <img src="assets/portrait.svg" width="360" alt="ASCII portrait" />
-
 </td>
 <td valign="top">
 
 ### about
-
 Chemical Engineering undergrad at MNIT Jaipur, self-taught in software engineering.
 Interested in systems programming, full-stack web, and ML-adjacent tooling. Active in competitive
 programming (LeetCode, Codeforces) and campus tech leadership (C2C, CS Club, Sphinx).
