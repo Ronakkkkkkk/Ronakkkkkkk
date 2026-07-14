@@ -1,1 +1,35 @@
+name: update streak stats
 
+on:
+  schedule:
+    - cron: "30 18 * * *"   # runs once a day at 00:00 IST (18:30 UTC)
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/streak.yml"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: generate streak stats svg
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          # swap in secrets.STREAK_STATS_TOKEN below (see setup notes)
+          # instead of GITHUB_TOKEN if you want private contributions counted
+          options: user=${{ github.repository_owner }}&theme=dark&hide_border=true
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: commit updated svg
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/streak.svg
+          git commit -m "chore: update streak stats" || echo "no changes to commit"
+          git push
