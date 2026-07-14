@@ -1,22 +1,27 @@
-<div align="center">
+<table>
+<tr>
+<td width="380" valign="top">
 
-<!-- ASCII-letter portrait, black & white, no background: assets/portrait.svg -->
 <img src="assets/portrait.svg" width="360" alt="ASCII portrait" />
 
-<!-- Animated typing banner -->
-<a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=4B91F1&center=true&vCenter=true&width=560&lines=Chemical+Engineering+%40+MNIT+Jaipur;Self-taught+Software+Engineer;Systems+%2B+Full-Stack+%2B+ML-adjacent;Building+toward+SDE+internships" alt="Typing SVG" />
-</a>
-
-</div>
-
----
+</td>
+<td valign="top">
 
 ### about
 
 Chemical Engineering undergrad at MNIT Jaipur, self-taught in software engineering.
 Interested in systems programming, full-stack web, and ML-adjacent tooling. Active in competitive
 programming (LeetCode, Codeforces) and campus tech leadership (C2C, CS Club, Sphinx).
+
+<a href="#">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=4B91F1&center=false&vCenter=true&width=440&lines=Chemical+Engineering+%40+MNIT+Jaipur;Self-taught+Software+Engineer;Systems+%2B+Full-Stack+%2B+ML-adjacent;Building+toward+SDE+internships" alt="Typing SVG" />
+</a>
+
+</td>
+</tr>
+</table>
+
+---
 
 ### selected projects
 
@@ -26,12 +31,7 @@ programming (LeetCode, Codeforces) and campus tech leadership (C2C, CS Club, Sph
 | **[The Vault](https://github.com/Ronakkkkkkk/movie-recommendation-system)** | FastAPI / Streamlit / scikit-learn | Movie recommendation engine (TF-IDF + cosine similarity) |
 | **LRU Cache** | C++ | Thread-safe, custom-implemented LRU cache |
 
-### stats
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Ronakkkkkkk&show_icons=true&theme=dark&hide_border=true" height="165" />
-<img src="https://raw.githubusercontent.com/Ronakkkkkkk/Ronakkkkkkk/main/profile/streak.svg" height="165" />
-</div>
+---
 
 ### contribution snake
 
