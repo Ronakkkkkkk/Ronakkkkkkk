@@ -12,10 +12,7 @@ programming (LeetCode, Codeforces) and campus tech leadership (C2C, CS Club, Sph
 
 **[Portfolio](https://ronaksharma.vercel.app/)**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&color=FFFFFF&center=false&vCenter=true&width=440&lines=B.Tech+%40+MNIT+Jaipur;Self-taught+Software+Engineer;Systems+%2B+Full-Stack+%2B+ML-adjacent;Building+toward+SDE+internships" />
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&color=000000&center=false&vCenter=true&width=440&lines=B.Tech+%40+MNIT+Jaipur;Self-taught+Software+Engineer;Systems+%2B+Full-Stack+%2B+ML-adjacent;Building+toward+SDE+internships" alt="Typing SVG" />
-</picture>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&speed=25&pause=400&color=58A6FF&center=false&vCenter=true&width=440&lines=B.Tech+%40+MNIT+Jaipur;Self-taught+Software+Engineer;Systems+%2B+Full-Stack+%2B+ML-adjacent;Building+toward+SDE+internships" alt="Typing SVG" />
 
 </td>
 </tr>
