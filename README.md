@@ -30,7 +30,7 @@ programming (LeetCode, Codeforces) and campus tech leadership (C2C, CS Club, Sph
 
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=Ronakkkkkkk&show_icons=true&theme=dark&hide_border=true" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ronakkkkkkk&theme=dark&hide_border=true" height="165" />
+<img src="https://streak-stats.demolab.com?user=Ronakkkkkkk&theme=dark&hide_border=true" height="165" />
 </div>
 
 ### contribution snake
