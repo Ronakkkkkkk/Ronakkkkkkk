@@ -1,7 +1,9 @@
 <table>
 <tr>
 <td width="380" valign="top">
+
 <img src="assets/portrait.svg" width="360" alt="ASCII portrait" />
+
 </td>
 <td valign="top">
 
@@ -35,5 +37,10 @@ programming (LeetCode, Codeforces) and campus tech leadership (C2C, CS Club, Sph
 ### contribution snake
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Ronakkkkkkk/Ronakkkkkkk/output/snake.gif" alt="snake animation" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ronakkkkkkk/Ronakkkkkkk/output/dist/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Ronakkkkkkk/Ronakkkkkkk/output/dist/snake.svg" alt="snake animation" />
+</picture>
+
 </div>
