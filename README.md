@@ -39,8 +39,8 @@ programming (LeetCode, Codeforces) and campus tech leadership (C2C, CS Club, Sph
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ronakkkkkkk/Ronakkkkkkk/output/dist/snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/Ronakkkkkkk/Ronakkkkkkk/output/dist/snake.svg" alt="snake animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ronakkkkkkk/Ronakkkkkkk/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Ronakkkkkkk/Ronakkkkkkk/output/snake.svg" alt="snake animation" />
 </picture>
 
 </div>
