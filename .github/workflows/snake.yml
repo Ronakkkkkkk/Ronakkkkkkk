@@ -1,12 +1,10 @@
 name: generate contribution snake
-
 on:
   schedule:
-    - cron: "0 */12 * * *"   # regenerate twice a day
+    - cron: "0 */12 * * *"
   workflow_dispatch: {}
   push:
     branches: [main]
-
 jobs:
   generate:
     permissions:
@@ -16,11 +14,21 @@ jobs:
       - name: generate snake svg/gif
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: Ronakkkkkkk
           outputs: |
             dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
-            dist/snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3282f2
+            dist/snake-dark.svg?palette=github-dark&color_snake=#000000
+            dist/snake.gif?color_snake=#000000&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3282f2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      # OPTIONAL, UNVERIFIED HACK: attempts to speed up the SVG animation
+      # by rewriting <animate ... dur="Xs"> values. Comment out if it breaks
+      # the SVG (e.g. if snk changes its internal markup in a future version).
+      # - name: speed up svg animation (experimental)
+      #   run: |
+      #     sed -i -E 's/dur="([0-9.]+)s"/echo "dur=\"$(echo "$1 * 0.5" | bc)s\""/ge' dist/snake.svg
+      #     sed -i -E 's/dur="([0-9.]+)s"/echo "dur=\"$(echo "$1 * 0.5" | bc)s\""/ge' dist/snake-dark.svg
 
       - name: push snake output to a dedicated "output" branch
         uses: crazy-max/ghaction-github-pages@v4
