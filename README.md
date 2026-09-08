@@ -10,12 +10,12 @@
 ### about
 Chemical Engineering undergrad at MNIT Jaipur, self-taught in software engineering.
 Interested in systems programming, full-stack web, and ML-adjacent tooling. Active in competitive
-programming:
+programming:<br>
 LeetCode<br>
 Codeforces<br>
 CodeChef<br>
 
-and campus tech leadership:
+and campus tech leadership:<br>
 
 C2C Club | Mentor<br>
 CS Club | Executive<br>
