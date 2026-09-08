@@ -10,7 +10,14 @@
 ### about
 Chemical Engineering undergrad at MNIT Jaipur, self-taught in software engineering.
 Interested in systems programming, full-stack web, and ML-adjacent tooling. Active in competitive
-programming (LeetCode, Codeforces, Codechef) and campus tech leadership (C2C club | Mentor, CS Club | Executive, Sphinx(Annual Techno-Management Fest) | Executive).
+programming:
+LeetCode
+Codeforces
+Codechef
+and campus tech leadership:
+C2C club | Mentor
+CS Club | Executive
+Sphinx(Annual Techno-Management Fest) | Executive.
 
 **[Portfolio](https://ronaksharma.vercel.app/)**
 
